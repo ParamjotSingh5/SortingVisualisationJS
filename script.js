@@ -49,8 +49,7 @@ function createBrick(height){
 
 function resetArray(){
     for(var i=0; i < values.length; i++){
-        values[i] = Math.floor(Math.random() * 400 + 5);
-        console.log("values : " + values[i]);        
+        values[i] = Math.floor(Math.random() * 400 + 5);          
     }    
     buildArray(values);
 }
